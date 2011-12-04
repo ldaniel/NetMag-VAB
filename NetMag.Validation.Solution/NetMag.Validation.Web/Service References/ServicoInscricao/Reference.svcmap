@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2746a873-8982-48f9-958e-e167c8c3d28f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8731/Design_Time_Addresses/NetMag.Validation.WCF/Inscricao/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="5d00fcb0-aa94-40ec-b281-1a09d2956a7a" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/NetMag.Validation.WCF/Inscricao/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="7a138b74-0395-4131-a747-ba0ee84992a2" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/NetMag.Validation.WCF/Inscricao/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="0a369633-8e69-46ad-9240-c3820fda988e" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/NetMag.Validation.WCF/Inscricao/mex" />
+    <MetadataFile FileName="NetMag.Validation.WCF.xsd" MetadataType="Schema" ID="a8f6c48b-3456-455f-b823-3daa5ff6231c" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/NetMag.Validation.WCF/Inscricao/mex" />
+    <MetadataFile FileName="validation.xsd" MetadataType="Schema" ID="283da34c-24c4-4446-aaea-803548efbd26" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/NetMag.Validation.WCF/Inscricao/mex" />
+    <MetadataFile FileName="Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.xsd" MetadataType="Schema" ID="a32e35f1-b134-45e5-99ea-a91c86479b3d" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/NetMag.Validation.WCF/Inscricao/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

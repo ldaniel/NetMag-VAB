@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7c53b3ab-3819-43f4-81d2-0e3b6eb3b639" name="Leandro@LEANDRO-NB 2009-03-01 19:19:48" runUser="Leandro-NB\Leandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="53c28d91-0530-4990-8457-052cb9606a0c">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\TestResults\Leandro_LEANDRO-NB 2009-03-01 19_19_48">
+      <DeploymentItem filename="C:\Program Files\Microsoft Enterprise Library 4.1 - October 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft Enterprise Library 4.1 - October 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+      <DeploymentItem filename="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades\bin\Debug\NetMag.Validation.Entidades.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LEANDRO-NB" outcome="Error" timestamp="2009-03-01T19:20:15.7230000-03:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2009-03-01T19:19:48.6480000-03:00" queuing="2009-03-01T19:19:54.8070000-03:00" start="2009-03-01T19:19:55.5330000-03:00" finish="2009-03-01T19:20:15.7340000-03:00" />
+  <TestDefinitions>
+    <UnitTest name="ParticipanteConstructorTest" storage="c:\users\leandro\artigos\net magazine\validações efetivas com validation\solution\netmag.validation.solution\netmag.validation.entidades.testes\bin\debug\netmag.validation.entidades.testes.dll" id="970541a8-efbd-384a-9eb9-74d42a1d9340">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\bin\Debug\NetMag.Validation.Entidades.Testes.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NetMag.Validation.Entidades.Testes.ParticipanteTest, NetMag.Validation.Entidades.Testes" name="ParticipanteConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="970541a8-efbd-384a-9eb9-74d42a1d9340" executionId="38a60054-2b93-49b9-bfc8-2f87e3d76cf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="38a60054-2b93-49b9-bfc8-2f87e3d76cf1" testId="970541a8-efbd-384a-9eb9-74d42a1d9340" testName="ParticipanteConstructorTest" computerName="LEANDRO-NB" duration="00:00:19.9920000" startTime="2009-03-01T19:19:55.7420000-03:00" endTime="2009-03-01T19:20:15.7340000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

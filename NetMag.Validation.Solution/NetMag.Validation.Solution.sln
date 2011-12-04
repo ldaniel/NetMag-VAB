@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D57DB4A1-BF32-4391-8253-F8D84CB59055}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		NetMag.Validation.Solution.vsmdi = NetMag.Validation.Solution.vsmdi
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Library", "Enterprise Library", "{76F7C7DD-4D1A-4F98-A68A-6E561E1338B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMag.Validation.Web", "NetMag.Validation.Web\NetMag.Validation.Web.csproj", "{48FDC64D-E682-4AEE-B2BD-6022ED320C9A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B371302C-6126-4B26-A249-0F666BF3F855} = {B371302C-6126-4B26-A249-0F666BF3F855}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMag.Validation.Entidades", "NetMag.Validation.Entidades\NetMag.Validation.Entidades.csproj", "{3D57E414-74A5-49B9-9E6C-44A722793DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMag.Validation.Entidades.Testes", "NetMag.Validation.Entidades.Testes\NetMag.Validation.Entidades.Testes.csproj", "{5CA009D4-1D5B-4677-8C8F-B3BFE5081A7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMag.Validation.WinForms", "NetMag.Validation.WinForms\NetMag.Validation.WinForms.csproj", "{83A34E19-E982-46C0-9CB4-A1D863E43245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation.Integration.WinForms", "..\..\..\..\..\..\EntLib41Src\Blocks\Validation\Src\Validation.WinForms\Validation.Integration.WinForms.csproj", "{30E03786-66F1-4F4E-A5C9-3162851D21BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMag.Validation.WCF", "NetMag.Validation.WCF\NetMag.Validation.WCF.csproj", "{B371302C-6126-4B26-A249-0F666BF3F855}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NetMag.Validation.Solution.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48FDC64D-E682-4AEE-B2BD-6022ED320C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FDC64D-E682-4AEE-B2BD-6022ED320C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FDC64D-E682-4AEE-B2BD-6022ED320C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FDC64D-E682-4AEE-B2BD-6022ED320C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D57E414-74A5-49B9-9E6C-44A722793DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D57E414-74A5-49B9-9E6C-44A722793DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D57E414-74A5-49B9-9E6C-44A722793DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D57E414-74A5-49B9-9E6C-44A722793DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA009D4-1D5B-4677-8C8F-B3BFE5081A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA009D4-1D5B-4677-8C8F-B3BFE5081A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA009D4-1D5B-4677-8C8F-B3BFE5081A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA009D4-1D5B-4677-8C8F-B3BFE5081A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A34E19-E982-46C0-9CB4-A1D863E43245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A34E19-E982-46C0-9CB4-A1D863E43245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A34E19-E982-46C0-9CB4-A1D863E43245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A34E19-E982-46C0-9CB4-A1D863E43245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E03786-66F1-4F4E-A5C9-3162851D21BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E03786-66F1-4F4E-A5C9-3162851D21BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E03786-66F1-4F4E-A5C9-3162851D21BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E03786-66F1-4F4E-A5C9-3162851D21BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B371302C-6126-4B26-A249-0F666BF3F855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B371302C-6126-4B26-A249-0F666BF3F855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B371302C-6126-4B26-A249-0F666BF3F855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B371302C-6126-4B26-A249-0F666BF3F855}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30E03786-66F1-4F4E-A5C9-3162851D21BD} = {76F7C7DD-4D1A-4F98-A68A-6E561E1338B0}
+	EndGlobalSection
+EndGlobal

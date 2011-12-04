@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Interna.master.cs" Inherits="NetMag.Validation.Web.library.Interna" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>.Net Magazine - Validações com o Validation Application Block</title>        
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmDados" runat="server">
+    <div id="wrapper">
+        <div id="header">
+            <div class="title">Validações efetivas com Validation Application Block</div>
+        </div>
+        <ul id="nav">
+            <li><a href="../exemplos/FichaInscricao01.aspx">Exemplo 01</a></li>
+            <li><a href="../exemplos/FichaInscricao02.aspx">Exemplo 02</a></li>
+            <li><a href="../exemplos/Exemplo03.aspx">Exemplo 03</a></li>
+            <li><a href="../exemplos/Exemplo04.aspx">Exemplo 04</a></li>
+        </ul>
+        <div id="content" class="clearfix">
+            <div id="col_1">
+                <img src="../library/images/logo_net.jpg" />
+                <br />
+                <h2>
+                <strong>Informações</strong></h2>
+                <ul id="subnav">
+                    <li><a href="../info/Home.aspx">Home</a></li>
+                    <li><a href="../info/Sobre.aspx">Sobre o site</a></li>
+                    <li><a href="../info/Autor.aspx">Sobre o autor</a></li>
+                    <li><a href="../info/Contato.aspx">Contato</a></li>
+                </ul>
+            </div>
+            <div id="col_2">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <br />
+        <div id="footer">
+            <small>Layout by <a href="http://cssweblayouts.com/" target="_blank">CSS Web Layouts</a></a></small></div>
+    </div>
+    </form>
+</body>
+</html>

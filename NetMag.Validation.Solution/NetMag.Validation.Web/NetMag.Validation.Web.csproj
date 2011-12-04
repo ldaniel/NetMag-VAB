@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48FDC64D-E682-4AEE-B2BD-6022ED320C9A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NetMag.Validation.Web</RootNamespace>
+    <AssemblyName>NetMag.Validation.Web</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Validation, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Validation.Integration.AspNet, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exemplos\Exemplo03.aspx.cs">
+      <DependentUpon>Exemplo03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exemplos\Exemplo03.aspx.designer.cs">
+      <DependentUpon>Exemplo03.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exemplos\Exemplo04.aspx.cs">
+      <DependentUpon>Exemplo04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exemplos\Exemplo04.aspx.designer.cs">
+      <DependentUpon>Exemplo04.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exemplos\FichaInscricao02.aspx.cs">
+      <DependentUpon>FichaInscricao02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exemplos\FichaInscricao02.aspx.designer.cs">
+      <DependentUpon>FichaInscricao02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exemplos\FichaInscricao01.aspx.cs">
+      <DependentUpon>FichaInscricao01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exemplos\FichaInscricao01.aspx.designer.cs">
+      <DependentUpon>FichaInscricao01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="info\Autor.aspx.cs">
+      <DependentUpon>Autor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="info\Autor.aspx.designer.cs">
+      <DependentUpon>Autor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="info\Contato.aspx.cs">
+      <DependentUpon>Contato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="info\Contato.aspx.designer.cs">
+      <DependentUpon>Contato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="info\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="info\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="info\Sobre.aspx.cs">
+      <DependentUpon>Sobre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="info\Sobre.aspx.designer.cs">
+      <DependentUpon>Sobre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="library\Interna.Master.cs">
+      <DependentUpon>Interna.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="library\Interna.Master.designer.cs">
+      <DependentUpon>Interna.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\ServicoInscricao\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="library\images\ajax-loader.gif" />
+    <Content Include="library\images\bg.gif" />
+    <Content Include="library\images\bgBotao.jpg" />
+    <Content Include="library\images\bgForm.gif" />
+    <Content Include="library\images\bgTextBox.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="exemplos\FichaInscricao01.aspx" />
+    <Content Include="library\Interna.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Default\Default.css" />
+    <Content Include="App_Themes\Default\Default.skin" />
+    <Content Include="info\Autor.aspx" />
+    <Content Include="info\Contato.aspx" />
+    <Content Include="info\Home.aspx" />
+    <Content Include="info\Sobre.aspx" />
+    <Content Include="library\images\a1.gif" />
+    <Content Include="library\images\a2.gif" />
+    <Content Include="library\images\a3.gif" />
+    <Content Include="library\images\a4.gif" />
+    <Content Include="library\images\bbg0.gif" />
+    <Content Include="library\images\bbg1.gif" />
+    <Content Include="library\images\logo_net.jpg" />
+    <Content Include="library\images\pic.jpg" />
+    <Content Include="library\images\pnp_logo.gif" />
+    <Content Include="library\images\x1.gif" />
+    <Content Include="library\images\x2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetMag.Validation.Entidades\NetMag.Validation.Entidades.csproj">
+      <Project>{3D57E414-74A5-49B9-9E6C-44A722793DAF}</Project>
+      <Name>NetMag.Validation.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NetMag.Validation.WCF\NetMag.Validation.WCF.csproj">
+      <Project>{B371302C-6126-4B26-A249-0F666BF3F855}</Project>
+      <Name>NetMag.Validation.WCF</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="exemplos\Exemplo03.aspx" />
+    <Content Include="exemplos\Exemplo04.aspx" />
+    <Content Include="exemplos\FichaInscricao02.aspx" />
+    <None Include="Service References\ServicoInscricao\configuration91.svcinfo" />
+    <None Include="Service References\ServicoInscricao\configuration.svcinfo" />
+    <None Include="Service References\ServicoInscricao\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServicoInscricao\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServicoInscricao\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.xsd" />
+    <None Include="Service References\ServicoInscricao\NetMag.Validation.WCF.xsd" />
+    <None Include="Service References\ServicoInscricao\service.wsdl" />
+    <None Include="Service References\ServicoInscricao\service.xsd" />
+    <None Include="Service References\ServicoInscricao\service1.xsd" />
+    <None Include="Service References\ServicoInscricao\validation.xsd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53232</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

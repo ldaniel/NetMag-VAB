@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f2c8a27c-0181-4a02-a191-c47d248e0d7a" name="Leandro@LEANDRO-NB 2009-03-01 02:33:26" runUser="Leandro-NB\Leandro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="53c28d91-0530-4990-8457-052cb9606a0c">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\TestResults\Leandro_LEANDRO-NB 2009-03-01 02_33_26">
+      <DeploymentItem filename="C:\Program Files\Microsoft Enterprise Library 4.1 - October 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft Enterprise Library 4.1 - October 2008\Bin\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+      <DeploymentItem filename="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades\bin\Debug\NetMag.Validation.Entidades.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="9" executed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="9" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-03-01T02:33:26.2337992-03:00" queuing="2009-03-01T02:33:33.2547992-03:00" start="2009-03-01T02:33:33.6517992-03:00" finish="2009-03-01T02:33:35.2917992-03:00" />
+  <TestDefinitions>
+    <UnitTest name="ParticipanteConstructorTest" storage="c:\users\leandro\artigos\net magazine\validações efetivas com validation\solution\netmag.validation.solution\netmag.validation.entidades.testes\bin\debug\netmag.validation.entidades.testes.dll" id="970541a8-efbd-384a-9eb9-74d42a1d9340">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6988d8b6-5f05-4e57-bde0-12155f986a5b" />
+      <TestMethod codeBase="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\bin\Debug\NetMag.Validation.Entidades.Testes.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NetMag.Validation.Entidades.Testes.ParticipanteTest, NetMag.Validation.Entidades.Testes" name="ParticipanteConstructorTest" />
+    </UnitTest>
+    <UnitTest name="DataInscricaoTest" storage="c:\users\leandro\artigos\net magazine\validações efetivas com validation\solution\netmag.validation.solution\netmag.validation.entidades.testes\bin\debug\netmag.validation.entidades.testes.dll" id="cf47ca42-9a62-7950-b64e-bde6b130c89a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NetMag.Validation.Entidades.dll" />
+      </DeploymentItems>
+      <Execution id="b5d95386-3f4d-4251-866f-303afc144de4" />
+      <TestMethod codeBase="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\bin\Debug\NetMag.Validation.Entidades.Testes.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NetMag.Validation.Entidades.Testes.ParticipanteTest, NetMag.Validation.Entidades.Testes" name="DataInscricaoTest" />
+    </UnitTest>
+    <UnitTest name="EmailTest" storage="c:\users\leandro\artigos\net magazine\validações efetivas com validation\solution\netmag.validation.solution\netmag.validation.entidades.testes\bin\debug\netmag.validation.entidades.testes.dll" id="b643f69f-7226-3af6-1dd8-19a87f03ab5d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NetMag.Validation.Entidades.dll" />
+      </DeploymentItems>
+      <Execution id="87038ebd-0fd1-43b6-8aa3-68fd074e6b86" />
+      <TestMethod codeBase="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\bin\Debug\NetMag.Validation.Entidades.Testes.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NetMag.Validation.Entidades.Testes.ParticipanteTest, NetMag.Validation.Entidades.Testes" name="EmailTest" />
+    </UnitTest>
+    <UnitTest name="VoucherTest" storage="c:\users\leandro\artigos\net magazine\validações efetivas com validation\solution\netmag.validation.solution\netmag.validation.entidades.testes\bin\debug\netmag.validation.entidades.testes.dll" id="b3a16b87-6d9c-0cb2-bb13-077c17753063">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NetMag.Validation.Entidades.dll" />
+      </DeploymentItems>
+      <Execution id="02d98bac-a06b-4310-9a4b-3d1d974e64f7" />
+      <TestMethod codeBase="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\bin\Debug\NetMag.Validation.Entidades.Testes.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NetMag.Validation.Entidades.Testes.ParticipanteTest, NetMag.Validation.Entidades.Testes" name="VoucherTest" />
+    </UnitTest>
+    <UnitTest name="MeioComunicacaoTest" storage="c:\users\leandro\artigos\net magazine\validações efetivas com validation\solution\netmag.validation.solution\netmag.validation.entidades.testes\bin\debug\netmag.validation.entidades.testes.dll" id="79ea8d71-bca1-9fe1-8473-5a1fc422be8f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NetMag.Validation.Entidades.dll" />
+      </DeploymentItems>
+      <Execution id="f5bb14e6-d07f-4595-a199-dbe0a557de4c" />
+      <TestMethod codeBase="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\bin\Debug\NetMag.Validation.Entidades.Testes.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NetMag.Validation.Entidades.Testes.ParticipanteTest, NetMag.Validation.Entidades.Testes" name="MeioComunicacaoTest" />
+    </UnitTest>
+    <UnitTest name="ComentariosTest" storage="c:\users\leandro\artigos\net magazine\validações efetivas com validation\solution\netmag.validation.solution\netmag.validation.entidades.testes\bin\debug\netmag.validation.entidades.testes.dll" id="33d2a7d5-e890-be29-ad8b-e012c5c4881b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NetMag.Validation.Entidades.dll" />
+      </DeploymentItems>
+      <Execution id="294e7f3f-5738-4493-82e6-5534f1eca481" />
+      <TestMethod codeBase="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\bin\Debug\NetMag.Validation.Entidades.Testes.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NetMag.Validation.Entidades.Testes.ParticipanteTest, NetMag.Validation.Entidades.Testes" name="ComentariosTest" />
+    </UnitTest>
+    <UnitTest name="ParticipanteConstructorTest1" storage="c:\users\leandro\artigos\net magazine\validações efetivas com validation\solution\netmag.validation.solution\netmag.validation.entidades.testes\bin\debug\netmag.validation.entidades.testes.dll" id="5a611fda-1cf8-c791-37ac-cf5a3467b3be">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9ede6f5a-410f-4db9-8343-1ba6ae5d3ad4" />
+      <TestMethod codeBase="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\bin\Debug\NetMag.Validation.Entidades.Testes.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NetMag.Validation.Entidades.Testes.ParticipanteTest, NetMag.Validation.Entidades.Testes" name="ParticipanteConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="DataNascimentoTest" storage="c:\users\leandro\artigos\net magazine\validações efetivas com validation\solution\netmag.validation.solution\netmag.validation.entidades.testes\bin\debug\netmag.validation.entidades.testes.dll" id="6e318120-57e5-2d84-d67b-dd3a996b59eb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NetMag.Validation.Entidades.dll" />
+      </DeploymentItems>
+      <Execution id="046fe46e-d8e9-4f51-b1aa-0f365371ba57" />
+      <TestMethod codeBase="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\bin\Debug\NetMag.Validation.Entidades.Testes.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NetMag.Validation.Entidades.Testes.ParticipanteTest, NetMag.Validation.Entidades.Testes" name="DataNascimentoTest" />
+    </UnitTest>
+    <UnitTest name="NomeTest" storage="c:\users\leandro\artigos\net magazine\validações efetivas com validation\solution\netmag.validation.solution\netmag.validation.entidades.testes\bin\debug\netmag.validation.entidades.testes.dll" id="5f2469cd-daf7-13dd-8dfc-3c7029133047">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="NetMag.Validation.Entidades.dll" />
+      </DeploymentItems>
+      <Execution id="974e7355-dc84-4d0c-aedf-9b86eb56cf35" />
+      <TestMethod codeBase="C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\bin\Debug\NetMag.Validation.Entidades.Testes.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NetMag.Validation.Entidades.Testes.ParticipanteTest, NetMag.Validation.Entidades.Testes" name="NomeTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="33d2a7d5-e890-be29-ad8b-e012c5c4881b" executionId="294e7f3f-5738-4493-82e6-5534f1eca481" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a611fda-1cf8-c791-37ac-cf5a3467b3be" executionId="9ede6f5a-410f-4db9-8343-1ba6ae5d3ad4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f2469cd-daf7-13dd-8dfc-3c7029133047" executionId="974e7355-dc84-4d0c-aedf-9b86eb56cf35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e318120-57e5-2d84-d67b-dd3a996b59eb" executionId="046fe46e-d8e9-4f51-b1aa-0f365371ba57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79ea8d71-bca1-9fe1-8473-5a1fc422be8f" executionId="f5bb14e6-d07f-4595-a199-dbe0a557de4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="970541a8-efbd-384a-9eb9-74d42a1d9340" executionId="6988d8b6-5f05-4e57-bde0-12155f986a5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3a16b87-6d9c-0cb2-bb13-077c17753063" executionId="02d98bac-a06b-4310-9a4b-3d1d974e64f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b643f69f-7226-3af6-1dd8-19a87f03ab5d" executionId="87038ebd-0fd1-43b6-8aa3-68fd074e6b86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf47ca42-9a62-7950-b64e-bde6b130c89a" executionId="b5d95386-3f4d-4251-866f-303afc144de4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="294e7f3f-5738-4493-82e6-5534f1eca481" testId="33d2a7d5-e890-be29-ad8b-e012c5c4881b" testName="ComentariosTest" computerName="LEANDRO-NB" duration="00:00:00.2796981" startTime="2009-03-01T02:33:33.8177992-03:00" endTime="2009-03-01T02:33:34.9347992-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   em NetMag.Validation.Entidades.Testes.ParticipanteTest.ComentariosTest() na C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\ParticipanteTest.cs:linha 172
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9ede6f5a-410f-4db9-8343-1ba6ae5d3ad4" testId="5a611fda-1cf8-c791-37ac-cf5a3467b3be" testName="ParticipanteConstructorTest1" computerName="LEANDRO-NB" duration="00:00:00.0122602" startTime="2009-03-01T02:33:34.9517992-03:00" endTime="2009-03-01T02:33:34.9757992-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   em NetMag.Validation.Entidades.Testes.ParticipanteTest.ParticipanteConstructorTest1() na C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\ParticipanteTest.cs:linha 182
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="974e7355-dc84-4d0c-aedf-9b86eb56cf35" testId="5f2469cd-daf7-13dd-8dfc-3c7029133047" testName="NomeTest" computerName="LEANDRO-NB" duration="00:00:00.0102491" startTime="2009-03-01T02:33:34.9887992-03:00" endTime="2009-03-01T02:33:35.0037992-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   em NetMag.Validation.Entidades.Testes.ParticipanteTest.NomeTest() na C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\ParticipanteTest.cs:linha 92
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="046fe46e-d8e9-4f51-b1aa-0f365371ba57" testId="6e318120-57e5-2d84-d67b-dd3a996b59eb" testName="DataNascimentoTest" computerName="LEANDRO-NB" duration="00:00:00.0127799" startTime="2009-03-01T02:33:35.0147992-03:00" endTime="2009-03-01T02:33:35.0317992-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   em NetMag.Validation.Entidades.Testes.ParticipanteTest.DataNascimentoTest() na C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\ParticipanteTest.cs:linha 140
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f5bb14e6-d07f-4595-a199-dbe0a557de4c" testId="79ea8d71-bca1-9fe1-8473-5a1fc422be8f" testName="MeioComunicacaoTest" computerName="LEANDRO-NB" duration="00:00:00.0109989" startTime="2009-03-01T02:33:35.0417992-03:00" endTime="2009-03-01T02:33:35.0577992-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   em NetMag.Validation.Entidades.Testes.ParticipanteTest.MeioComunicacaoTest() na C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\ParticipanteTest.cs:linha 108
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6988d8b6-5f05-4e57-bde0-12155f986a5b" testId="970541a8-efbd-384a-9eb9-74d42a1d9340" testName="ParticipanteConstructorTest" computerName="LEANDRO-NB" duration="00:00:00.0099200" startTime="2009-03-01T02:33:35.0667992-03:00" endTime="2009-03-01T02:33:35.0817992-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   em NetMag.Validation.Entidades.Testes.ParticipanteTest.ParticipanteConstructorTest() na C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\ParticipanteTest.cs:linha 200
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="02d98bac-a06b-4310-9a4b-3d1d974e64f7" testId="b3a16b87-6d9c-0cb2-bb13-077c17753063" testName="VoucherTest" computerName="LEANDRO-NB" duration="00:00:00.0110666" startTime="2009-03-01T02:33:35.0867992-03:00" endTime="2009-03-01T02:33:35.1027992-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   em NetMag.Validation.Entidades.Testes.ParticipanteTest.VoucherTest() na C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\ParticipanteTest.cs:linha 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87038ebd-0fd1-43b6-8aa3-68fd074e6b86" testId="b643f69f-7226-3af6-1dd8-19a87f03ab5d" testName="EmailTest" computerName="LEANDRO-NB" duration="00:00:00.0101867" startTime="2009-03-01T02:33:35.1107992-03:00" endTime="2009-03-01T02:33:35.1247992-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   em NetMag.Validation.Entidades.Testes.ParticipanteTest.EmailTest() na C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\ParticipanteTest.cs:linha 124
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b5d95386-3f4d-4251-866f-303afc144de4" testId="cf47ca42-9a62-7950-b64e-bde6b130c89a" testName="DataInscricaoTest" computerName="LEANDRO-NB" duration="00:00:00.0106926" startTime="2009-03-01T02:33:35.1327992-03:00" endTime="2009-03-01T02:33:35.1467992-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   em NetMag.Validation.Entidades.Testes.ParticipanteTest.DataInscricaoTest() na C:\Users\Leandro\Artigos\Net Magazine\Validações efetivas com Validation\Solution\NetMag.Validation.Solution\NetMag.Validation.Entidades.Testes\ParticipanteTest.cs:linha 156
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
